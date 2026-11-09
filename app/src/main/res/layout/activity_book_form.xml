@@ -1,0 +1,145 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F7FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEEBOOKS"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#9B91B2"
+            android:letterSpacing="0.15" />
+
+        <TextView
+            android:id="@+id/tvFormTitle188"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambah Buku"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#7C3AED"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lengkapi informasi buku yang ingin kamu simpan ke koleksi pribadi."
+            android:textSize="14sp"
+            android:textColor="#77738A"
+            android:layout_marginBottom="28dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:padding="22dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INFORMASI BUKU"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#9B91B2"
+                android:letterSpacing="0.1"
+                android:layout_marginBottom="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Judul Buku"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#242033" />
+
+            <EditText
+                android:id="@+id/etTitle188"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Masukkan judul buku"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:inputType="textCapSentences"
+                android:textSize="14sp"
+                android:backgroundTint="#A78BFA"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pengarang"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#242033" />
+
+            <EditText
+                android:id="@+id/etAuthor188"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Masukkan nama pengarang"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textSize="14sp"
+                android:backgroundTint="#A78BFA"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahun Terbit"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#242033" />
+
+            <EditText
+                android:id="@+id/etYear188"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Contoh: 2024"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:inputType="number"
+                android:textSize="14sp"
+                android:backgroundTint="#A78BFA"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="28dp" />
+
+            <Button
+                android:id="@+id/btnSaveBook188"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="SIMPAN BUKU"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7C3AED" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SeeBooks188 • Your Books, Your Story."
+            android:textSize="11sp"
+            android:textColor="#9994A8"
+            android:gravity="center"
+            android:layout_marginTop="28dp" />
+
+    </LinearLayout>
+</ScrollView>

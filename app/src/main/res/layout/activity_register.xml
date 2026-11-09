@@ -1,0 +1,152 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F7FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📚"
+            android:textSize="64sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SeeBooks"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#7C3AED" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Your Reading Journey"
+            android:textSize="14sp"
+            android:textColor="#77738A"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="36dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:textColor="#242033" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buat akun untuk mulai mengelola koleksi buku."
+                android:textSize="13sp"
+                android:textColor="#77738A"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textStyle="bold"
+                android:textColor="#242033" />
+
+            <EditText
+                android:id="@+id/etUsername188"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Buat username"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:inputType="text"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#A78BFA" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textStyle="bold"
+                android:textColor="#242033" />
+
+            <EditText
+                android:id="@+id/etPassword188"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Buat password (minimal 6 karakter)"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#A78BFA" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Konfirmasi Password"
+                android:textStyle="bold"
+                android:textColor="#242033" />
+
+            <EditText
+                android:id="@+id/etConfirmPassword188"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Ulangi password"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#A78BFA" />
+
+            <Button
+                android:id="@+id/btnRegister188"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="CREATE ACCOUNT"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7C3AED" />
+
+            <TextView
+                android:id="@+id/tvGoLogin188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun? Login sekarang"
+                android:textSize="13sp"
+                android:textColor="#7C3AED"
+                android:gravity="center"
+                android:padding="16dp"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SeeBooks188 • Digital Book Management"
+            android:textSize="11sp"
+            android:textColor="#9994A8"
+            android:layout_marginTop="28dp" />
+
+    </LinearLayout>
+</ScrollView>

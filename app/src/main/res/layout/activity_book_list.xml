@@ -1,0 +1,77 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F7FF"
+    android:padding="22dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MY LIBRARY"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="#9B91B2"
+        android:letterSpacing="0.12" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Book Collection"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#242033"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semua buku favoritmu tersimpan di sini."
+        android:textSize="13sp"
+        android:textColor="#77738A"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="22dp" />
+
+    <EditText
+        android:id="@+id/etSearchBook188"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Cari pengarang atau tahun..."
+        android:padding="14dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:backgroundTint="#A78BFA" />
+
+    <Button
+        android:id="@+id/btnAddBook188"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="+  TAMBAH BUKU BARU"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7C3AED"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR KOLEKSI"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="#9B91B2"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="12dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBooks188"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="12dp" />
+
+</LinearLayout>

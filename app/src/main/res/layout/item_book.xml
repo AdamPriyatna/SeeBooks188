@@ -1,0 +1,75 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:elevation="3dp"
+    android:padding="18dp"
+    android:layout_marginBottom="14dp">
+
+    <TextView
+        android:id="@+id/tvBookTitle188"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Buku"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#242033" />
+
+    <TextView
+        android:id="@+id/tvBookAuthor188"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pengarang: Nama Pengarang"
+        android:textSize="13sp"
+        android:textColor="#77738A"
+        android:layout_marginTop="9dp" />
+
+    <TextView
+        android:id="@+id/tvBookYear188"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tahun terbit: 2024"
+        android:textSize="13sp"
+        android:textColor="#7C3AED"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEAF5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btnEditBook188"
+            android:layout_width="105dp"
+            android:layout_height="42dp"
+            android:text="EDIT"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#7C3AED"
+            android:backgroundTint="#EDE9FE" />
+
+        <Button
+            android:id="@+id/btnDeleteBook188"
+            android:layout_width="105dp"
+            android:layout_height="42dp"
+            android:text="HAPUS"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#DC2626"
+            android:backgroundTint="#FEE2E2"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
